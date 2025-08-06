@@ -1,0 +1,23 @@
+.myH1 {
+  color: blue;
+  background-color: lightgray;
+}
+
+.header {
+  color: red;
+  text-align: center;
+  min-height: 20vh;
+}
+
+.body-section {
+  text-align: center;
+  color: green;
+  min-height: 60vh;
+}
+
+.footer {
+  background-color: #343a40;
+  color: blue;
+  text-align: center;
+  min-height: 10vh;
+}

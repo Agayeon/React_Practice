@@ -1,0 +1,48 @@
+/* ReducerTest.css */
+
+.reducer-test-container {
+  background-color: #29465b;
+  padding: 40px;
+  border-radius: 20px;
+  text-align: center;
+  width: 300px;
+  margin: 50px auto;
+  box-shadow: 0 8px 15px rgba(0, 0, 0, 0.2);
+}
+
+.number-display {
+  color: white;
+  font-size: 64px;
+  margin-bottom: 40px;
+  font-weight: bold;
+}
+
+.button-wrapper {
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+}
+
+.control-button {
+  width: 70px;
+  height: 70px;
+  border-radius: 50%;
+  border: none;
+  color: white;
+  font-size: 24px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: all 0.2s ease;
+}
+
+.control-button:hover {
+  transform: scale(1.05);
+}
+
+.control-button.decrease {
+  background-color: #ef5350;
+}
+
+.control-button.increase {
+  background-color: #4fc3f7;
+}

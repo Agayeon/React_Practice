@@ -1,0 +1,73 @@
+/* 전체 레이아웃 */
+body {
+  font-family: "Segoe UI", sans-serif;
+  background-color: #f0f4f8;
+  display: flex;
+  justify-content: center;
+  padding: 40px;
+}
+
+div {
+  text-align: center;
+}
+
+/* 타이틀 */
+h2 {
+  font-size: 28px;
+  color: #333;
+  margin-bottom: 20px;
+}
+
+/* Viewer 영역 */
+h3 {
+  font-size: 20px;
+  color: #555;
+}
+
+p {
+  font-size: 36px;
+  font-weight: bold;
+  color: #0077cc;
+}
+
+/* 버튼 스타일 */
+button {
+  background-color: #ffffff;
+  border: 2px solid #0077cc;
+  color: #0077cc;
+  padding: 10px 16px;
+  margin: 5px;
+  font-size: 16px;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: all 0.2s ease;
+}
+
+button:hover {
+  background-color: #0077cc;
+  color: white;
+}
+
+/* 눈 송이 공통 스타일 */
+.snowflake {
+  position: absolute;
+  top: -10px;
+  color: white;
+  user-select: none;
+  z-index: 9999;
+  animation-name: fall;
+  animation-timing-function: linear;
+  animation-iteration-count: infinite;
+  pointer-events: none;
+}
+
+@keyframes fall {
+  0% {
+    transform: translateY(0);
+    opacity: 1;
+  }
+  100% {
+    transform: translateY(100vh);
+    opacity: 0.3;
+  }
+}

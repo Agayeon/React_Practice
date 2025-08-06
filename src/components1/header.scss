@@ -1,0 +1,23 @@
+// 변수 선언
+$main_color: #333;
+$primary_color: rgb(0, 204, 255);
+
+// .box 스타일
+.box {
+  color: $main_color;
+  padding: 10px;
+
+  &:hover {
+    color: red;
+  }
+}
+
+// .container 스타일
+.container {
+  padding: 20px;
+  background-color: blue;
+
+  h1 {
+    color: white;
+  }
+}
